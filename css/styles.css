@@ -494,7 +494,7 @@ color: var(--main-white-color);
   transform: translateY(0);
   
 }
-.portfolio-card:focus .portfolio-card-text{
+.portfolio-cards-link:focus .portfolio-card-text{
   transform: translateY(0);
   
 }
