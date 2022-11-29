@@ -687,22 +687,24 @@ color: var(--secondary-text-color);
 display: flex;
 align-items: center;
 }
-.check-text::before{
-  content: "";
+.check-text span {
   width: 16px;
   height: 15px;
   background: var(--main-white-color);
   border: 0.2px solid var(--main-text-color);
   border-radius: 2px;
   margin-right: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.input-label-span{
+/* .input-label-span{
   color: var(--highlight-color);
   letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 1.7;
 text-decoration: underline;
-}
+} */
 
 .modal-input{
   width: 100%;
