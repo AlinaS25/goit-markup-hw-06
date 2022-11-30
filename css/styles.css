@@ -697,6 +697,13 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
+}
+
+.modal-check:checked + .check-text span{
+  background-color: var(--highlight-color);
+  border:none;
+  fill: var(--main-white-color);
 }
 /* .input-label-span{
   color: var(--highlight-color);
