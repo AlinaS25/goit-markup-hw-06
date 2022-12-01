@@ -622,7 +622,7 @@ button {
 	line-height: 1.25;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
-	padding-left: 15px;
+	
 }
 .input-footer {
 	width: 358px;
@@ -635,6 +635,12 @@ button {
 	padding-left: 15px;
 }
 
+.input-footer:focus{
+outline-color: var(--highlight-color);
+}
+.input-footer:hover{
+	border-color: var(--highlight-color);
+}
 .input-button-footer {
 	width: 200px;
 	height: 50px;
