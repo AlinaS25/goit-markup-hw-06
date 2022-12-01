@@ -705,13 +705,13 @@ align-items: center;
   border:none;
   fill: var(--main-white-color);
 }
-/* .input-label-span{
+.input-policy{
   color: var(--highlight-color);
   letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 1.7;
 text-decoration: underline;
-} */
+}
 
 .modal-input{
   width: 100%;
