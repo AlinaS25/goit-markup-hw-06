@@ -615,6 +615,13 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-white-color);
 }
+.input-footer::placeholder{
+  font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+padding-left: 15px;
+}
 .input-footer{
   width: 358px;
   height: 50px;
@@ -639,6 +646,12 @@ text-align: center;
 letter-spacing: 0.06em;
 color: var(--main-white-color);
 padding-left: 28px;
+}
+.modal-icon-footer{
+
+fill: var(--main-white-color);
+left: 10px;
+top: 13px;
 }
 .modal {
 	width: 528px;
@@ -767,9 +780,13 @@ padding-left: 28px;
 	margin-top: 4px;
 }
 
-.modal-input::placeholder {
+.modal-comment::placeholder {
 	font-size: 12px;
 	color: #303030;
+  font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+color: rgba(117, 117, 117, 0.5);
 }
 
 .comment {
