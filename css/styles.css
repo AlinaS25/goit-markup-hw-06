@@ -602,12 +602,12 @@ button {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.modal-footer{
+.footer-form{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.label-footer{
+.sign-title{
   font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
