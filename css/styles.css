@@ -602,10 +602,14 @@ button {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.footer-form{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.modal-footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sent-form{
+	display: flex;
+	gap: 12px;
 }
 .sign-title{
   font-weight: 700;
