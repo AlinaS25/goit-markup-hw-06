@@ -602,9 +602,8 @@ button {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.modal-footer {
-}
-.sent-form {
+
+.footer-form {
 	display: flex;
 	gap: 12px;
 }
@@ -656,6 +655,7 @@ outline-color: var(--highlight-color);
 	color: var(--main-white-color);
 	justify-content: center;
 	gap: 10px;
+	cursor: pointer;
 }
 
 .input-button-footer:hover,
@@ -726,6 +726,7 @@ outline-color: var(--highlight-color);
 }
 .input-label {
 	color: var(--secondary-text-color);
+	font-weight: 400;
 }
 
 .check-text {
@@ -749,6 +750,7 @@ outline-color: var(--highlight-color);
 	fill: transparent;
 }
 
+
 .modal-check:checked + .check-text span {
 	background-color: var(--highlight-color);
 	border: none;
@@ -757,12 +759,15 @@ outline-color: var(--highlight-color);
 .modal-check:focus + .check-text span {
 	border-color: var(--highlight-color);
 }
+
+
 .input-policy {
 	color: var(--highlight-color);
 	letter-spacing: 0.03em;
 	font-size: 14px;
 	line-height: 1.7;
 	text-decoration: underline;
+	margin-left: 5px;
 }
 
 .modal-input {
@@ -794,6 +799,10 @@ outline-color: var(--highlight-color);
 	margin-top: 4px;
 }
 
+.modal-comment:hover,
+.modal-comment:focus{
+outline-color: var(--highlight-color);
+}
 .modal-comment::placeholder {
 	font-size: 12px;
 	color: #303030;
@@ -819,6 +828,7 @@ outline-color: var(--highlight-color);
 	letter-spacing: 0.06em;
 	color: var(--main-white-color);
 	background-color: var(--highlight-color);
+	cursor: pointer;
 }
 .input-button:hover,
 .input-button:focus {
