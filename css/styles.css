@@ -755,6 +755,7 @@ outline-color: var(--highlight-color);
 	background-color: var(--highlight-color);
 	border: none;
 	fill: var(--main-white-color);
+	
 }
 .modal-check:focus + .check-text span {
 	border-color: var(--highlight-color);
@@ -787,6 +788,7 @@ outline-color: var(--highlight-color);
 
 .modal-input:focus + .modal-icon {
 	fill: var(--highlight-color);
+
 }
 
 .modal-comment {
@@ -797,6 +799,8 @@ outline-color: var(--highlight-color);
 	resize: none;
 	padding: 16px 12px;
 	margin-top: 4px;
+	margin-bottom: 20px;
+	
 }
 
 .modal-comment:hover,
